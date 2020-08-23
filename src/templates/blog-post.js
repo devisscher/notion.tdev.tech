@@ -15,12 +15,12 @@ const BlogPostTemplate = ({ data }) => {
         : null;
 
     return (
-        <Layout location={location} title={siteTitle}>
+        <Layout title={siteTitle}>
             <SEO
                 title={post.frontmatter.title}
                 description={post.frontmatter.description || post.excerpt}
                 image={image}
-                pathname={location.pathname}
+                pathname="/"
             />
             <h1>{post.frontmatter.title}</h1>
             <MDXRenderer>{post.body}</MDXRenderer>
