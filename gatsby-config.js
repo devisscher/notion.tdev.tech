@@ -18,17 +18,18 @@ module.exports = {
         {
             resolve: `gatsby-source-filesystem`,
             options: {
-                name: `content`,
-                path: `${__dirname}/content/posts`,
+                name: `images`,
+                path: `${__dirname}/content/images`,
             },
         },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
-                name: `images`,
-                path: `${__dirname}/content/images`,
+                name: `content`,
+                path: `${__dirname}/content/posts`,
             },
         },
+
         {
             resolve: 'gatsby-plugin-page-creator',
             options: {
