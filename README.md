@@ -1,3 +1,9 @@
+## Notion clone
+
+I wanted to try and clone the ui from Notion, which is a cool note taking app.
+
+## Based on the following boilerplate
+
 <p align="center">
   <img src="https://www.joaopedro.cc/img/github/typescript-gatsby-starter.png" alt="Gatsby and TypeScript">
 </p>
@@ -18,13 +24,13 @@ A TypeScript starter for Gatsby. No plugins and styling. Exactly the necessary t
 
 No plugins installed, great for advanced users.
 
-- 📏 **ESLint** — Pluggable JavaScript linter
-- 💖 **Prettier** - Opinionated Code Formatter
-- 🐶 **Husky** — Use git hooks with ease
-- 📄 **Commitizen** - Conventional commit messages CLI
-- 🚓 **Commitlint** - Lint commit messages
-- 🚫 **lint-staged** - Run linters against staged git files
-- 🗂 **Root import** - Import folders and files using the `@` prefix.
+-   📏 **ESLint** — Pluggable JavaScript linter
+-   💖 **Prettier** - Opinionated Code Formatter
+-   🐶 **Husky** — Use git hooks with ease
+-   📄 **Commitizen** - Conventional commit messages CLI
+-   🚓 **Commitlint** - Lint commit messages
+-   🚫 **lint-staged** - Run linters against staged git files
+-   🗂 **Root import** - Import folders and files using the `@` prefix.
 
 ## 🚀 Getting started
 
